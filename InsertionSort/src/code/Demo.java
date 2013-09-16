@@ -1,6 +1,6 @@
-package sutd.phd.edwardlin;
+package code;
 
-public class InsertionSort 
+public class Demo 
 {
 	public static void main(String[] args) 
 	{
