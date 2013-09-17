@@ -1,6 +1,6 @@
 package code;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public class InsertionSort 
 {
@@ -10,7 +10,7 @@ public class InsertionSort
 		// TODO Auto-generated constructor stub
 	}
 
-	public ArrayList<Integer> sort(ArrayList<Integer> inputArray)
+	public List<Integer> sort(List<Integer> inputArray)
 	{		
 		int i=0, j=0;
 		Integer key = new Integer(0);

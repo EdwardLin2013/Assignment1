@@ -43,7 +43,7 @@ public class DemoInsertionSort
 		// Sort the numbers
 		long startTime=0, endTime=0;
 		System.out.println("Start to do the Insertion Sort, and the Current Time is " + (startTime=System.nanoTime()));
-		outputArray = engine.sort(inputArray);
+		outputArray = (ArrayList<Integer>) engine.sort(inputArray);
 		System.out.println("Finish the Sorting, and the End time is " + (endTime=System.nanoTime()));
 		System.out.println("Total Execution Time is " + (endTime-startTime) + " nanoseconds");
 		
